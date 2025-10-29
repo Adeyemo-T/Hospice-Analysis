@@ -10,6 +10,20 @@ The analysis delivers actionable insights focused on the following key areas:
 * **Patient Profile Segmentation:** Analysis of **patient demographics (age, gender)** and **Top ICD-10 Diagnoses** to identify high-risk patient groups.
 * **Care Flow Analysis:** An evaluation of how patients exit care (discharged vs. died) and the factors that influence the total time patients remain in the care program.
 
+  ## Data Structure & Initial Checks
+
+### 📊 Data Overview
+The analysis was conducted on a denormalized dataset compiled from several disparate hospital records, including tables for **Patient Demographics**, **Clinical Encounters**, and **Discharge Status**. The final compiled data set contained **441 patient records** and 25 variables related to care length, diagnoses, and readmission events.
+
+### 🧹 Data Cleaning and Preparation
+The raw data required significant cleaning and transformation to ensure reliable insights.
+
+* **SQL for Integration:** Complex `JOIN` operations were used to merge records from the patient, admission, and discharge tables, ensuring each row represented a complete patient journey.
+* **Python (Pandas) for Quality:** Pandas was utilized to handle critical data integrity issues:
+    * **Missing Values:** Addressed a significant number of missing values (over 700) in the `Discharge Reason` and `Length of Stay` fields by classifying them as "Unknown" to maintain data count integrity for further analysis.
+    * **Type Conversion:** Standardized all date-related columns to a uniform format to allow for accurate trend analysis and calculation of the Average Length of Care (ALOC).
+    * **Feature Engineering:** Calculated the **Discharge Efficiency (23%)** metric by creating a new field based on the ratio of planned vs. unplanned care exits.
+
 ## Executive Summary
 
 The facility's **12% readmission rate** is driven by low **Discharge Efficiency (23%)** and a lack of standardized post-discharge protocols, suggesting significant operational gaps in the final stage of patient care. Analysis of patient flow reveals critical friction points, particularly among the high-risk **75+ age group** and those with dementia/cancer, who are highly vulnerable to readmission. Addressing these two core areas presents the clearest path to improving patient outcomes and securing essential funding.
