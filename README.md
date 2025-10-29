@@ -33,8 +33,7 @@ The facility's **12% readmission rate** is driven by low **Discharge Efficiency 
 
 ![Image](https://github.com/user-attachments/assets/cb09118a-5d32-4f9b-81af-4b7fa5b68baa)
 
-###
-### 📊 Care Performance & Flow
+### Care Performance & Flow
 
 * **Low Discharge Efficiency:** At **23%**, discharge efficiency is critically low, indicating a major bottleneck in standardizing the completion of care. This friction point is the largest contributor to poor overall performance.
 * **Average Length of Care (ALOC):** The ALOC sits at **84 days**. While this duration is within expected ranges, the goal must be to ensure the quality of care provided during this time directly correlates with successful patient outcomes (i.e., planned discharges) rather than readmission.
@@ -42,15 +41,15 @@ The facility's **12% readmission rate** is driven by low **Discharge Efficiency 
 
    ![Image](https://github.com/user-attachments/assets/3957b2ee-7cb5-485d-ab9b-76815cce2f33)
 
- **Patient Profile Deep Dive**
+### Patient Profile Deep Dive
 
 * **Highest-Risk Demographic:** Patients in the **75-84 age bracket** constitute the largest demographic group. This high concentration of elderly patients demands targeted care management and robust, specialized post-discharge plans.
 * **Top Diagnostic Categories:** **Dementia** and **Cancer** are the most common primary diagnoses. These complex, chronic conditions are known drivers of readmission, necessitating highly coordinated, interdisciplinary care plans.
 * **Vulnerable Groups:** Proactive intervention should focus on the intersection of the 75+ age group and these chronic diagnoses, as they represent the most vulnerable population segments.
 
   ![Image](https://github.com/user-attachments/assets/9a9b3efa-834f-4c31-9944-6aa6a7b5f841)
-
-   **Business Recommendations**
+  
+### Business Recommendations
 
 Based on the uncovered insights, the following recommendations are provided to reduce readmission and improve operational efficiency:
 
