@@ -15,3 +15,4 @@ The analysis delivers actionable insights focused on the following key areas:
 
 * **Interactive Power BI Dashboard:** The full, interactive clinical insights dashboard can be accessed [here](https://drive.google.com/file/d/1h7tkk58PjUAU1FCY8DchzsOQoDEjJBUH/view?usp=drivesdk).
 
+![Image](https://github.com/user-attachments/assets/cb09118a-5d32-4f9b-81af-4b7fa5b68baa)
