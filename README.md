@@ -19,10 +19,9 @@ The analysis was conducted on a denormalized dataset compiled from several dispa
 The raw data required significant cleaning and transformation to ensure reliable insights.
 
 * **SQL for Integration:** Complex `JOIN` operations were used to merge records from the patient, admission, and discharge tables, ensuring each row represented a complete patient journey.
-* **Python (Pandas) for Quality:** Pandas was utilized to handle critical data integrity issues:
-    * **Missing Values:** Addressed a significant number of missing values (over 700) in the `Discharge Reason` and `Length of Stay` fields by classifying them as "Unknown" to maintain data count integrity for further analysis.
-    * **Type Conversion:** Standardized all date-related columns to a uniform format to allow for accurate trend analysis and calculation of the Average Length of Care (ALOC).
-    * **Feature Engineering:** Calculated the **Discharge Efficiency (23%)** metric by creating a new field based on the ratio of planned vs. unplanned care exits.
+* **Missing Values:** Addressed a significant number of missing values (over 700) in the `Discharge Reason` and `Length of Stay` fields by classifying them as "Unknown" to maintain data count integrity for further analysis.
+* * **Type Conversion:** Standardized all date-related columns to a uniform format to allow for accurate trend analysis and calculation of the Average Length of Care (ALOC).
+* **Feature Engineering:** Calculated the **Discharge Efficiency (23%)** metric by creating a new field based on the ratio of planned vs. unplanned care exits.
 
 ## Executive Summary
 
