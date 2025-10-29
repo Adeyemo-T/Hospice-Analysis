@@ -12,16 +12,18 @@ The analysis delivers actionable insights focused on the following key areas:
 
 ## Data Structure & Initial Checks
 
-### 📊 Data Overview
+###  Data Overview
 The analysis was conducted on a denormalized dataset compiled from several disparate hospital records, including tables for **Patient Demographics**, **Clinical Encounters**, and **Discharge Status**. The final compiled data set contained **441 patient records** and 25 variables related to care length, diagnoses, and readmission events.
 
-### 🧹 Data Cleaning and Preparation
+###  Data Cleaning and Preparation
 The raw data required significant cleaning and transformation to ensure reliable insights.
 
 * **SQL for Integration:** Complex `JOIN` operations were used to merge records from the patient, admission, and discharge tables, ensuring each row represented a complete patient journey.
 * **Missing Values:** Addressed a significant number of missing values (over 700) in the `Discharge Reason` and `Length of Stay` fields by classifying them as "Unknown" to maintain data count integrity for further analysis.
 * * **Type Conversion:** Standardized all date-related columns to a uniform format to allow for accurate trend analysis and calculation of the Average Length of Care (ALOC).
 * **Feature Engineering:** Calculated the **Discharge Efficiency (23%)** metric by creating a new field based on the ratio of planned vs. unplanned care exits.
+  ![Image](https://github.com/user-attachments/assets/a7ffa12c-7d82-441b-8955-6ce4f3991ca0)
+
 
 ## Executive Summary
 
