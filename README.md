@@ -33,3 +33,5 @@ The facility's **12% readmission rate** is driven by low **Discharge Efficiency 
 * **Top Diagnostic Categories:** **Dementia** and **Cancer** are the most common primary diagnoses. These complex, chronic conditions are known drivers of readmission, necessitating highly coordinated, interdisciplinary care plans.
 * **Vulnerable Groups:** Proactive intervention should focus on the intersection of the 75+ age group and these chronic diagnoses, as they represent the most vulnerable population segments.
 
+  ![Image](https://github.com/user-attachments/assets/9a9b3efa-834f-4c31-9944-6aa6a7b5f841)
+
