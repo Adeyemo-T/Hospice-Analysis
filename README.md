@@ -10,7 +10,7 @@ The analysis delivers actionable insights focused on the following key areas:
 * **Patient Profile Segmentation:** Analysis of **patient demographics (age, gender)** and **Top ICD-10 Diagnoses** to identify high-risk patient groups.
 * **Care Flow Analysis:** An evaluation of how patients exit care (discharged vs. died) and the factors that influence the total time patients remain in the care program.
 
-  ## Data Structure & Initial Checks
+## Data Structure & Initial Checks
 
 ### 📊 Data Overview
 The analysis was conducted on a denormalized dataset compiled from several disparate hospital records, including tables for **Patient Demographics**, **Clinical Encounters**, and **Discharge Status**. The final compiled data set contained **441 patient records** and 25 variables related to care length, diagnoses, and readmission events.
@@ -33,7 +33,7 @@ The facility's **12% readmission rate** is driven by low **Discharge Efficiency 
 
 ![Image](https://github.com/user-attachments/assets/cb09118a-5d32-4f9b-81af-4b7fa5b68baa)
 
-**Care Performance & Flow**
+###Care Performance & Flow
 
 * **Low Discharge Efficiency:** At **23%**, discharge efficiency is critically low, indicating a major bottleneck in standardizing the completion of care. This friction point is the largest contributor to poor overall performance.
 * **Average Length of Care (ALOC):** The ALOC sits at **84 days**. While this duration is within expected ranges, the goal must be to ensure the quality of care provided during this time directly correlates with successful patient outcomes (i.e., planned discharges) rather than readmission.
