@@ -9,3 +9,9 @@ The analysis delivers actionable insights focused on the following key areas:
 * **Care Performance Evaluation:** A deep dive into core metrics like **Readmission Rate**, **Discharge Efficiency**, and **Average Length of Care** to benchmark performance.
 * **Patient Profile Segmentation:** Analysis of **patient demographics (age, gender)** and **Top ICD-10 Diagnoses** to identify high-risk patient groups.
 * **Care Flow Analysis:** An evaluation of how patients exit care (discharged vs. died) and the factors that influence the total time patients remain in the care program.
+  ***
+
+### 🔗 Technical Deliverables
+
+* **Interactive Power BI Dashboard:** The full, interactive clinical insights dashboard can be accessed [here](https://drive.google.com/file/d/1h7tkk58PjUAU1FCY8DchzsOQoDEjJBUH/view?usp=drivesdk).
+
