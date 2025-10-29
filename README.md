@@ -24,7 +24,8 @@ The facility's **12% readmission rate** is driven by low **Discharge Efficiency 
 * **Low Discharge Efficiency:** At **23%**, discharge efficiency is critically low, indicating a major bottleneck in standardizing the completion of care. This friction point is the largest contributor to poor overall performance.
 * **Average Length of Care (ALOC):** The ALOC sits at **84 days**. While this duration is within expected ranges, the goal must be to ensure the quality of care provided during this time directly correlates with successful patient outcomes (i.e., planned discharges) rather than readmission.
 * **Exit Status:** Analysis of how patients exit the program shows that a clear understanding of the full patient journey is needed to distinguish between planned discharges and high-risk unplanned exits.
-  ![Image](https://github.com/user-attachments/assets/3957b2ee-7cb5-485d-ab9b-76815cce2f33)
+
+   ![Image](https://github.com/user-attachments/assets/3957b2ee-7cb5-485d-ab9b-76815cce2f33)
 
  **Patient Profile Deep Dive**
 
