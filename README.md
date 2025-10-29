@@ -11,7 +11,10 @@ The analysis delivers actionable insights focused on the following key areas:
 * **Care Flow Analysis:** An evaluation of how patients exit care (discharged vs. died) and the factors that influence the total time patients remain in the care program.
   ***
 
-### 🔗 Technical Deliverables
+## Executive Summary
+
+The facility's **12% readmission rate** is driven by low **Discharge Efficiency (23%)** and a lack of standardized post-discharge protocols, suggesting significant operational gaps in the final stage of patient care. Analysis of patient flow reveals critical friction points, particularly among the high-risk **75+ age group** and those with dementia/cancer, who are highly vulnerable to readmission. Addressing these two core areas presents the clearest path to improving patient outcomes and securing essential funding.
+
 
 * **Interactive Power BI Dashboard:** The full, interactive clinical insights dashboard can be accessed [here](https://drive.google.com/file/d/1h7tkk58PjUAU1FCY8DchzsOQoDEjJBUH/view?usp=drivesdk).
 
